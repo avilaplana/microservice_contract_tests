@@ -2,11 +2,9 @@ Contract tests in a microservice environment
 -------------------------------------------
 I want to create a proof of concept about how I would develop contract tests against downstream microservices. 
 
-These contract test differs from the one proposed by Martin Fowler (http://www.martinfowler.com/articles/consumerDrivenContracts.html) because I develop them in the consumer instead of the producer.
-
 The contract tests should check the following:
 
-1. Infrastructure and integration, because they are some kind of integration test
+1. Infrastructure and integration
 2. URL well formed
 3. In the http request, the marshalling (object to json) satisfies the contract
 4. In the http response, the unmarshalling (json to object) satisfies the contract
