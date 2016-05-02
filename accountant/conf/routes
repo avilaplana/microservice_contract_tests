@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET        /ping            controllers.HealthController.ping
+
+GET        /accountant/:license        controllers.AccountantController.findByLicense(license: String)
+
+POST        /accountant                controllers.AccountantController.create()

@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/alvarovilaplana/projects/microservice_contract_tests/customer/conf/application.conf,/Users/alvarovilaplana/projects/microservice_contract_tests/customer/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alvarovilaplana/projects/microservice_contract_tests/customer/conf/evolutions,/Users/alvarovilaplana/projects/microservice_contract_tests/customer/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alvarovilaplana/projects/microservice_contract_tests/customer/conf/logback.xml,/Users/alvarovilaplana/projects/microservice_contract_tests/customer/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alvarovilaplana/projects/microservice_contract_tests/customer/conf/routes,/Users/alvarovilaplana/projects/microservice_contract_tests/customer/target/scala-2.11/classes/routes)[0m
