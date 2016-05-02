@@ -5,6 +5,7 @@ I want to create a proof of concept about how I would develop contract tests aga
 These contract test differs from the one proposed by Martin Fowler (http://www.martinfowler.com/articles/consumerDrivenContracts.html) because I develop them in the consumer instead of the producer.
 
 The contract tests should check the following:
+
 1. Infrastructure and integration, because they are some kind of integration test
 2. URL well formed
 3. In the http request, the marshalling (object to json) satisfies the contract
@@ -22,7 +23,9 @@ I assume that we have 3 microservices:
 3. **customer**
 
 To simplify the problem we assume that **book-keeping** contains a public rest endpoint that provides information about an accountant. The data is the aggregation of information about the accountant got from **accountant** and information about all the customers got from **customer**.
+
 The requests would be the following:
+
 1. Inbound request to book-keeping: /account/:license
 2. Outbound request to accountant: /accountant/:license
 3. Outbound request to customer: /customers
