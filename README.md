@@ -18,6 +18,7 @@ The contract tests should check the following:
 Example:
 =======
 I assume that we have 3 microservices:
+
 1. **book-keeping**
 2. **accountant**
 3. **customer**
