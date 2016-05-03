@@ -11,15 +11,18 @@ import scalaj.http.{Http => HttpClient}
 
 class Steps extends ScalaDsl with EN with Matchers {
 
+  val customerHost = sys.env.get("DOMAIN_BACKEND_MICROSERVICES").getOrElse("http://localhost:9002")
+  val accountHost = sys.env.get("DOMAIN_BACKEND_MICROSERVICES").getOrElse("http://localhost:9001")
+
   var world: mutable.Map[String, String] = mutable.Map.empty[String, String]
 
   Given("""^The '(.*)' microservice is up and running$"""){ (service: String) =>
     val (status, body) = service match {
       case "Customer" =>
-        GET("http://localhost:9002/ping")
+        GET(s"$customerHost/customer/ping")
 
       case "Accountant" =>
-        GET("http://localhost:9001/ping")
+        GET(s"$accountHost/accountant/ping")
 
       case _ => throw new IllegalArgumentException("Service not defined")
     }
@@ -33,10 +36,10 @@ class Steps extends ScalaDsl with EN with Matchers {
   When("""^I request 'GET' to the resource '(.*)'$"""){ (resource: String) =>
     val (status, body) = world("service") match {
       case "Customer" =>
-        GET(s"http://localhost:9002$resource")
+        GET(s"$customerHost$resource")
 
       case "Accountant" =>
-        GET(s"http://localhost:9001$resource")
+        GET(s"$accountHost$resource")
 
       case _ => throw new IllegalArgumentException("Service not defined")
     }

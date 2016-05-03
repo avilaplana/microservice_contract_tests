@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/alvarovilaplana/projects/microservice_contract_tests/accountant/conf/routes
-// @DATE:Mon May 02 16:35:04 BST 2016
+// @DATE:Tue May 03 23:29:05 BST 2016
 
 package router
 
@@ -42,7 +42,7 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ping""", """controllers.HealthController.ping"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """accountant/ping""", """controllers.HealthController.ping"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """accountant/""" + "$" + """license<[^/]+>""", """controllers.AccountantController.findByLicense(license:String)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """accountant""", """controllers.AccountantController.create()"""),
     Nil
@@ -54,7 +54,7 @@ class Routes(
 
   // @LINE:5
   private[this] lazy val controllers_HealthController_ping0_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ping")))
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("accountant/ping")))
   )
   private[this] lazy val controllers_HealthController_ping0_invoker = createInvoker(
     HealthController_1.ping,
@@ -65,7 +65,7 @@ class Routes(
       Nil,
       "GET",
       """""",
-      this.prefix + """ping"""
+      this.prefix + """accountant/ping"""
     )
   )
 

@@ -1,0 +1,11 @@
+web:
+    build: ./nginx
+    ports:
+        - "80:80"
+    links:
+        - accountant:accountant
+        - customer:customer
+customer:
+    build: ./customer
+accountant:
+    build: ./accountant

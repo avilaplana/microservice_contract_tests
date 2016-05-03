@@ -25,10 +25,10 @@ formatter.match({
       "offset": 5
     }
   ],
-  "location": "Steps.scala:16"
+  "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 127174265,
+  "duration": 133360714,
   "status": "passed"
 });
 formatter.scenario({
@@ -66,10 +66,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "Steps.scala:33"
+  "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 4978389,
+  "duration": 222722698,
   "status": "passed"
 });
 formatter.match({
@@ -79,17 +79,17 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "Steps.scala:48"
+  "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 96369,
+  "duration": 149672,
   "status": "passed"
 });
 formatter.match({
-  "location": "Steps.scala:52"
+  "location": "Steps.scala:55"
 });
 formatter.result({
-  "duration": 204472892,
+  "duration": 210866546,
   "status": "passed"
 });
 formatter.background({
@@ -111,10 +111,10 @@ formatter.match({
       "offset": 5
     }
   ],
-  "location": "Steps.scala:16"
+  "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 2260375,
+  "duration": 4382317,
   "status": "passed"
 });
 formatter.scenario({
@@ -142,10 +142,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "Steps.scala:33"
+  "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 2291657,
+  "duration": 3642068,
   "status": "passed"
 });
 formatter.match({
@@ -155,10 +155,10 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "Steps.scala:48"
+  "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 70644,
+  "duration": 73023,
   "status": "passed"
 });
 formatter.uri("customer_contract.feature");
@@ -188,10 +188,10 @@ formatter.match({
       "offset": 5
     }
   ],
-  "location": "Steps.scala:16"
+  "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 2853334,
+  "duration": 3842732,
   "status": "passed"
 });
 formatter.scenario({
@@ -229,10 +229,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "Steps.scala:33"
+  "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 2170405,
+  "duration": 7408563,
   "status": "passed"
 });
 formatter.match({
@@ -242,17 +242,17 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "Steps.scala:48"
+  "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 67379,
+  "duration": 100958,
   "status": "passed"
 });
 formatter.match({
-  "location": "Steps.scala:52"
+  "location": "Steps.scala:55"
 });
 formatter.result({
-  "duration": 13629524,
+  "duration": 6211001,
   "status": "passed"
 });
 });
