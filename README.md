@@ -31,7 +31,7 @@ The requests would be the following:
 2. Outbound request to accountant: /accountant/:license
 3. Outbound request to customer: /customers
 
-The purpose of the contract test is to check that /accountant/:license and /customers satisfy the contract and in the case of producer makes some change, there is a mechanism to detect that change and evolve our code.
+The purpose of the contract test is to check that book-keeping  satisfy the contract with /accountant/:license and /customers providing quick feedback about the behaviour of those downstream services.
 
 Contract test - Accountant
 --------------------------
