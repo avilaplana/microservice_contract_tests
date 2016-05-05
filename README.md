@@ -23,7 +23,7 @@ I assume that we have 3 microservices:
 
 To simplify the problem we assume that **book-keeping** contains a public rest endpoint that provides information about an accountant. The data is the aggregation of information about the accountant got from **accountant** and information about all the customers got from **customer**.
 
-![alt tag](https://github.com/avilaplana/microservice_contract_tests/blob/master/book-keeping/doc/microservice-contract.png)
+![alt tag](https://github.com/avilaplana/microservice_contract_tests/blob/master/doc/microservice-contract.png)
 
 The requests would be the following:
 
@@ -35,6 +35,8 @@ The purpose of the contract test is to check that book-keeping  satisfy the cont
 
 Contract test - Accountant
 --------------------------
+![alt tag](https://github.com/avilaplana/microservice_contract_tests/blob/master/doc/accountant_contract_test.png)
+
 ```
 Feature: Contract test for Accountant microservice
 
@@ -61,6 +63,7 @@ Feature: Contract test for Accountant microservice
 
 Contract test - Customer
 --------------------------
+![alt tag](https://github.com/avilaplana/microservice_contract_tests/blob/master/doc/customer_contract_test.png)
 ```
 Feature: Contract test for Customer microservice
 
