@@ -92,7 +92,7 @@ Feature: Contract test for Customer microservice
 
 HOW TO RUN WITH DOCKER
 =======================
-
+```
 1. docker-machine start default
 2. export DOMAIN_BACKEND_MICROSERVICES=http://192.168.99.100
 3. cd accountant
@@ -112,7 +112,7 @@ HOW TO RUN WITH DOCKER
 
 HOW TO RUN WITH SBT
 =======================
-
+```
 2. unset DOMAIN_BACKEND_MICROSERVICES
 3. cd accountant
 4. screen -d -m sbt "run 9001" 
