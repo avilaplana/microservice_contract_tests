@@ -90,6 +90,40 @@ Feature: Contract test for Customer microservice
 
 ```
 
+HOW TO RUN WITH DOCKER
+=======================
+
+1. docker-machine start default
+2. export DOMAIN_BACKEND_MICROSERVICES=http://192.168.99.100
+3. cd accountant
+4. sbt dist
+5. cd ..
+6. cd  customer
+7. sbt dist
+8. cd ..
+9. docker-compose rm -f
+10. docker-compose up -d
+11. cd book-keeping
+12. sbt test
+13. cd ..
+14. docker-compose stop
+15. docker-machine start default
+```
+
+HOW TO RUN WITH SBT
+=======================
+
+2. unset DOMAIN_BACKEND_MICROSERVICES
+3. cd accountant
+4. screen -d -m sbt "run 9001" 
+5. cd ..
+6. cd  customer
+7. screen -d -m sbt "run 9002"
+8. cd ..
+11. cd book-keeping
+12. sbt test
+```
+
 APPENDIX
 ========
 

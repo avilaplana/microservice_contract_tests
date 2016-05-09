@@ -28,7 +28,7 @@ formatter.match({
   "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 133360714,
+  "duration": 1458065155,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 222722698,
+  "duration": 195674703,
   "status": "passed"
 });
 formatter.match({
@@ -82,14 +82,14 @@ formatter.match({
   "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 149672,
+  "duration": 154891,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.scala:55"
 });
 formatter.result({
-  "duration": 210866546,
+  "duration": 204775374,
   "status": "passed"
 });
 formatter.background({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 4382317,
+  "duration": 2276102,
   "status": "passed"
 });
 formatter.scenario({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 3642068,
+  "duration": 2515082,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 73023,
+  "duration": 66957,
   "status": "passed"
 });
 formatter.uri("customer_contract.feature");
@@ -191,7 +191,7 @@ formatter.match({
   "location": "Steps.scala:19"
 });
 formatter.result({
-  "duration": 3842732,
+  "duration": 1313856447,
   "status": "passed"
 });
 formatter.scenario({
@@ -232,7 +232,7 @@ formatter.match({
   "location": "Steps.scala:36"
 });
 formatter.result({
-  "duration": 7408563,
+  "duration": 191058784,
   "status": "passed"
 });
 formatter.match({
@@ -245,14 +245,14 @@ formatter.match({
   "location": "Steps.scala:51"
 });
 formatter.result({
-  "duration": 100958,
+  "duration": 96173,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.scala:55"
 });
 formatter.result({
-  "duration": 6211001,
+  "duration": 6016947,
   "status": "passed"
 });
 });
